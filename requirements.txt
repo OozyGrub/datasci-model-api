@@ -1,0 +1,11 @@
+matplotlib
+tensorflow
+fastapi
+uvicorn
+python-multipart
+deepcut
+pythainlp
+pickle5
+transformers
+fairseq
+sentencepiece
