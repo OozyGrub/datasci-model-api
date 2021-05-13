@@ -1,0 +1,10 @@
+version: "3.3"
+
+services:
+  datasci-api:
+    container_name: datasci-api
+    image: datasci-api
+    ports:
+      - 8080:8080
+    volumes:
+      - .:/app
