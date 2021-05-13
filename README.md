@@ -13,3 +13,11 @@ This application has implemented with fastapi
 ### Start Server port 8080
 
 `docker-compose up`
+
+### Deployment
+
+`gcloud config set project datasci-line-api`
+
+`gcloud builds submit --tag gcr.io/datasci-line-api/datasci-model-api`
+
+`gcloud beta run deploy --image gcr.io/datasci-line-api/datasci-model-api --platform managed`
